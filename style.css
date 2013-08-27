@@ -1,0 +1,15 @@
+
+/* Hier wird die Größe und der Rahmen der Map festgelegt */
+.smallmap {
+    width: 512px;
+    height: 256px;
+    border: 1px solid #ccc;
+}
+
+/* Hiermit wird der Copyright Text von OSM an den Unteren Rand geschoben */
+.olControlAttribution {
+    bottom: 5px;
+    font-size: 70%;
+    text-align: right;
+}
+
