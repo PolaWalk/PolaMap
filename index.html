@@ -10,6 +10,12 @@
         var map, layer;
         var drawControls, selectControl, selectedFeature;
 
+        var walk = 1;
+
+        if (window.location.hash != '') {
+            walk = window.location.hash.substr(1);
+        }
+
         function onPopupClose(evt) {
             selectControl.unselect(selectedFeature);
         }
@@ -61,7 +67,7 @@
             var Walk1Options = {
                 strategies: [new OpenLayers.Strategy.Fixed()],
                 protocol: new OpenLayers.Protocol.HTTP({
-                    url: 'walk1.gpx',
+                    url: 'walk' + walk + '.gpx',
                     format: new OpenLayers.Format.GPX()
                 }),
                 style: {
