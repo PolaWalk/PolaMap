@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Wikipedia" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"> 
+ <!-- Kommentare sehen so aus -->
+ <metadata>
+  <name>Madame Tussauds PolaWalk</name>
+  <desc>Madame Tussauds Tour © 2013 PolaWalk.com</desc>
+  <author>
+   <name>Gilbert Lechner</name>
+  </author>
+ </metadata>
+ <wpt lat="48.21734" lon="16.36579">
+  <name>Rossauer Kaserne</name>
+  <sym>Gebäude</sym>
+ </wpt>
+ <wpt lat="48.21606" lon="16.38016">
+  <name>St. Josef Kirche</name>
+  <sym>Kirche</sym>
+ </wpt>
+ <wpt lat="48.21766" lon="16.39596">
+  <name>Madame Tussauds</name>
+  <sym>Museum</sym>
+ </wpt>
+
+ <rte>
+  <name>Madame Tussauds PolaWalk</name>
+  <desc>Madame Tussauds Tour © 2013 Polawalk.com</desc>
+  <rtept lat="48.21734" lon="16.36579"></rtept>
+  <rtept lat="48.21606" lon="16.38016"></rtept>
+  <rtept lat="48.21766" lon="16.39596"></rtept>
+ </rte>
+</gpx>
