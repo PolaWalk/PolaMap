@@ -10,17 +10,17 @@
    <name>Gilbert Lechner</name>
   </author>
  </metadata>
- <wpt lat="48.21734" lon="16.36579">
-  <name>Rossauer Kaserne</name>
+ <wpt lat="48.21790" lon="16.36411">
+  <name>Türkenstraße 23</name>
   <sym>Gebäude</sym>
  </wpt>
- <wpt lat="48.21606" lon="16.38016">
-  <name>St. Joseph Kirche</name>
-  <sym>Kirche</sym>
+ <wpt lat="48.21708" lon="16.37118">
+  <name>Schottenring</name>
+  <sym>U-Bahn-Station</sym>
  </wpt>
  <wpt lat="48.21825" lon="16.39234">
   <name>Praterstern</name>
-  <sym>Kirche</sym>
+  <sym>U-Bahn-Station</sym>
  </wpt>
  <wpt lat="48.21766" lon="16.39596">
   <name>Madame Tussauds</name>
@@ -30,8 +30,8 @@
  <rte>
   <name>Madame Tussauds PolaWalk</name>
   <desc>Madame Tussauds Tour © 2013 Polawalk.com</desc>
-  <rtept lat="48.21734" lon="16.36579"></rtept>
-  <rtept lat="48.21606" lon="16.38016"></rtept>
+  <rtept lat="48.21790" lon="16.36411"></rtept>
+  <rtept lat="48.21708" lon="16.37118"></rtept>
   <rtept lat="48.21825" lon="16.39234"></rtept>
   <rtept lat="48.21766" lon="16.39596"></rtept>
  </rte>
