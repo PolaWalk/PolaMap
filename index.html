@@ -10,10 +10,10 @@
         var map, layer;
         var drawControls, selectControl, selectedFeature;
 
-        var walk = 1;
+        var walkNum = 1;
 
         if (window.location.hash != '') {
-            walk = window.location.hash.substr(1);
+            walkNum = window.location.hash.substr(1);
         }
 
         function onPopupClose(evt) {
@@ -67,7 +67,7 @@
             var Walk1Options = {
                 strategies: [new OpenLayers.Strategy.Fixed()],
                 protocol: new OpenLayers.Protocol.HTTP({
-                    url: 'walk' + walk + '.gpx',
+                    url: 'walk' + walkNum + '.gpx',
                     format: new OpenLayers.Format.GPX()
                 }),
                 style: {
@@ -80,10 +80,13 @@
                 },
                 projection: new OpenLayers.Projection('EPSG:4326')
             }
-            var Walk1 = new OpenLayers.Layer.Vector('Walk #1', Walk1Options);
-            map.addLayer(Walk1);
+            var walk = new OpenLayers.Layer.Vector('Walk', Walk1Options);
+            walk.onFeatureInsert = function() {
+                map.zoomToExtent(walk.getDataExtent(), false);
+            }
+            map.addLayer(walk);
             selectControl = new OpenLayers.Control.SelectFeature(
-                Walk1,
+                walk,
                 {onSelect: onFeatureSelect, onUnselect: onFeatureUnselect}
             );
             map.addControl(selectControl);
