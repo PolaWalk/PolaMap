@@ -15,7 +15,11 @@
   <sym>Gebäude</sym>
  </wpt>
  <wpt lat="48.21606" lon="16.38016">
-  <name>St. Josef Kirche</name>
+  <name>St. Joseph Kirche</name>
+  <sym>Kirche</sym>
+ </wpt>
+ <wpt lat="48.21825" lon="16.39234">
+  <name>Praterstern</name>
   <sym>Kirche</sym>
  </wpt>
  <wpt lat="48.21766" lon="16.39596">
@@ -28,6 +32,7 @@
   <desc>Madame Tussauds Tour © 2013 Polawalk.com</desc>
   <rtept lat="48.21734" lon="16.36579"></rtept>
   <rtept lat="48.21606" lon="16.38016"></rtept>
+  <rtept lat="48.21825" lon="16.39234"></rtept>
   <rtept lat="48.21766" lon="16.39596"></rtept>
  </rte>
 </gpx>
